@@ -4,12 +4,14 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QL3E4MKDCQ"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+      if (window.location.hostname.search('sandsla.sh') !== -1) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-QL3E4MKDCQ');
       }
-      gtag('js', new Date());
-      gtag('config', 'G-QL3E4MKDCQ');
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />

@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sandsla.sh/",
+  "homepage": "https://djrideout.github.io/sandsla.sh/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --cname sandsla.sh"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/three": "^0.169.0",
